@@ -5,7 +5,7 @@ terraform {
     bucket         = "sritam628-accelerator-platform-tf-state"
     key            = "global/devops-accelerator/terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "sritam628-accelerator-tf-locker"
+    dynamodb_table = "devops-accelerator-tf-locker"
     encrypt        = true
   }
 }
